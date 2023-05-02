@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+.font{
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+.wraper{
+    width: 100vw;
+    height: 100vh;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url('https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2643&q=80');
+}
+
+.title{
+    margin: 5vh 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.keys{
+    display: flex;
+    justify-content: center;
+}
+.key{
+    width: 100px;
+    height: 100px;
+    font-size: 24px;
+    text-shadow: 0 0 2px black;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 10vh 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.keyPlaying{
+    transform: scale(1.1);
+    border-color: orange;
+    box-shadow: 0 0 10px orange;
+}
+.sound{
+    font-size: 18px;
+}
